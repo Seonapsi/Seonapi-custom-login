@@ -1,0 +1,51 @@
+.appearance_page_seonapsi-custom-login .iris-picker {position: absolute!important;  box-shadow: 0 10px 33px 13px rgba(0,0,0,.12)!important;}			
+.appearance_page_seonapsi-custom-login .form-table th {padding: 5px!important;width: 100px!important;vertical-align: top!important;}
+.appearance_page_seonapsi-custom-login .form-table td {padding: 5px!important;width: 100px!important;vertical-align: top!important;}
+.appearance_page_seonapsi-custom-login .notice-success {border: 1px solid #c8f5c8!important;border-radius: 3px!important;background-color: #eeffee!important;}
+.appearance_page_seonapsi-custom-login .notice-success :after {content:'👍🏼'!important;font-size: 19px!important;}
+ #frame {
+        -ms-zoom: 0.75;
+        -moz-transform: scale(0.75);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.75);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+	    box-shadow: 0 10px 33px 13px rgba(0,0,0,.12)!important;
+	 	border-radius:10px!important;
+    }		
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.3);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#donate-button	{
+width:40%!important;
+	
+ }
+
+#donate-button::before {
+	content: "♥"; /* Sostituisci con il contenuto desiderato */
+	display: inline-block;
+	color:red;
+	margin-right: 5px;
+	animation: heartbeat 1s infinite;
+	position: absolute;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+			
+
+	
