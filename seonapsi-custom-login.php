@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Seonapsi Custom Login
+Plugin Name: Seonapsi Custom Login Style
 Plugin URI: https://seonapsi.com
 Description: Personalizza la pagina di login di WordPress con il tuo stile
 Version: 1.0.0
-Author: Seonapsi
+Author: Seonapsi - Raoul Gargiulo
 Author URI: https://seonapsi.com
 License: GPLv2 or later
 */
@@ -14,14 +14,13 @@ License: GPLv2 or later
 wp_enqueue_style( 'wp-color-picker' );
 wp_enqueue_script( 'wp-color-picker' );
 
-///////////////////////////////////////////////
 add_action('admin_menu', 'seonapsi_custom_login_menu');
 function seonapsi_custom_login_menu()
 {
     add_submenu_page(
 		'themes.php',
-        'Seonapsi Custom Login',
-        '🎨 Seonapsi Custom Login',
+        'Seonapsi Custom Login Style',
+        '🎨 Seonapsi Custom Login Style',
         'manage_options',
         'seonapsi-custom-login',
         'seonapsi_custom_login_options_page'
@@ -121,7 +120,7 @@ function seonapsi_custom_login_options_page()
 </script>
 
 
-        <h1 style="padding:10px 20px 10px 20px;background-color:white; border-radius:10px;box-shadow: 0 10px 33px 13px rgba(0,0,0,.12)!important;margin-top:10px;margin-bottom:10px;margin-bottom:20px;"><?php _e('Seonapsi Custom Login', 'seonapsi-custom-login'); ?> 🎨</h1>
+        <h1 style="padding:10px 20px 10px 20px;background-color:white; border-radius:10px;box-shadow: 0 10px 33px 13px rgba(0,0,0,.12)!important;margin-top:10px;margin-bottom:10px;margin-bottom:20px;"><?php _e('Seonapsi Custom Login Style', 'seonapsi-custom-login'); ?> 🎨</h1>
 <form method="post" action="">
 <table class="form-table"style="width:1200px;">
 <tr valign="top">
@@ -151,9 +150,7 @@ title:'PayPal - The safer, easier way to pay online!',
 }
 }).render('#donate-button');
 	</script><p style="color:#b5b6b6;">Donami un ☕️ o una 🍕 virtuale e dammi la carica per sviluppare nuove funzionalità!♥️</p>
-</div>
-
-	<h2>Anteprima</h2>
+</div><br>
 	<p style="color:red;">Salva le modifiche per visualizzare l'anteprima. </p><br>
 	<iframe credentialless id="frame" height="600px" width="100%"scrolling="no" src="/wp-admin" style="margin-bottom:-90px"></iframe>
 </td>
@@ -201,7 +198,6 @@ title:'PayPal - The safer, easier way to pay online!',
 <th scope="row"><?php _e('Togli il bordo al form', 'seonapsi-custom-login'); ?></th>
 <td>
 <input type="checkbox" name="seonapsi_custom_login_form_border" <?php checked($form_border, 1); ?> />
-	<p>flagga</p>
 	</td>
 </tr>
 <tr valign="top">
@@ -262,7 +258,6 @@ title:'PayPal - The safer, easier way to pay online!',
 <th scope="row"><?php _e('Abilita ombra del form', 'seonapsi-custom-login'); ?></th>
 <td>
 <input type="checkbox" name="seonapsi_custom_login_form_shadow" <?php checked($form_shadow, 1); ?> />
-	<p>di sicuro effetto!</p>
 	</td>
 </tr>
 </table>
