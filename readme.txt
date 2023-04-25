@@ -1,4 +1,5 @@
 === Seonapsi Custom Login Style ===
+
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://www.paypal.com/donate/?hosted_button_id=29WDZRRQ2P8Y6
 Tags: pagina di accesso personalizzata, stile login personalizzato, personalizzare pagina di login, logo login, personalizzazione form di accesso, tema pagina di login, sfondo pagina di accesso, logo pagina di login, plugin pagina di accesso, layout pagina di accesso, custom login page, personalized login, customize login page, login form customization, login page theme, login page background, login page logo, login page plugin
