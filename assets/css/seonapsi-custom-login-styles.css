@@ -1,5 +1,5 @@
-.appearance_page_seonapsi-custom-login .iris-picker {position: absolute!important;  box-shadow: 0 10px 33px 13px rgba(0,0,0,.12)!important;}			
-.appearance_page_seonapsi-custom-login .form-table th {padding: 5px!important;width: 100px!important;vertical-align: top!important;}
+.appearance_page_seonapsi-custom-login .iris-picker {position: absolute!important;  box-shadow: 0 10px 33px 13px rgba(0,0,0,.12)!important;border-radius:3px;}			
+.appearance_page_seonapsi-custom-login .form-table th {padding: 5px!important;width: 100px!important;vertical-align: top!important; height: 36px;}
 .appearance_page_seonapsi-custom-login .form-table td {padding: 5px!important;width: 100px!important;vertical-align: top!important;}
 .appearance_page_seonapsi-custom-login .notice-success {border: 1px solid #c8f5c8!important;border-radius: 3px!important;background-color: #eeffee!important;}
 .appearance_page_seonapsi-custom-login .notice-success :after {content:'👍🏼'!important;font-size: 19px!important;}
@@ -13,6 +13,11 @@
         -webkit-transform-origin: 0 0;
 	    box-shadow: 0 10px 33px 13px rgba(0,0,0,.12)!important;
 	 	border-radius:10px!important;
+		margin-bottom:-90px;
+	 	background-color:white;
+	 background-image: url('../../img/loadorange.gif');
+	 background-position:center;
+	 background-repeat:no-repeat;
     }		
 @keyframes heartbeat {
   0% {
@@ -46,6 +51,29 @@ width:40%!important;
     margin-top: 3px;
     margin-left: 6px;
 }
-			
 
-	
+#suggerimento{ 
+	font-size: 12px!important;
+    color: #a0a0a0!important;
+	line-height: 1;
+}
+			
+.appearance_page_seonapsi-custom-login input[type=number],.appearance_page_seonapsi-custom-login input[type=text]{
+	width: 145px!important;
+}
+
+.appearance_page_seonapsi-custom-login .wp-picker-container input[type=text].wp-color-picker {
+    width: 4rem!important;
+   
+}
+.appearance_page_seonapsi-custom-login input[type=checkbox]{
+padding:11px!important;
+}
+.appearance_page_seonapsi-custom-login input[type=checkbox]:checked::before{
+    content: url('../../img/check-mark.svg')!important;
+	margin: -1.8rem 0 0 -1.43em;
+    transform: scale(.038);
+}
+
+
+
