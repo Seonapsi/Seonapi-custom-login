@@ -127,7 +127,7 @@ function seonapsi_custom_login_options_page()
 <th scope="row"style="width:200px;"><?php _e('Colore Sfondo Pagina', 'seonapsi-custom-login'); ?></th>
 <td style="width:200px;">
 <input type="text" name="seonapsi_custom_login_bg_color" class="colorPicker" value="<?php echo esc_attr($bg_color); ?>" />
-<p>Cambia il colore della pagina</p>
+<p id="suggerimento">Cambia il colore della pagina</p>
 </td>
 <td rowspan="16" valign="top"  style="width:300px!important;vertical-align: top!important;">
 	<h2>Come funziona?</h2>
@@ -151,29 +151,29 @@ title:'PayPal - The safer, easier way to pay online!',
 }).render('#donate-button');
 	</script><p style="color:#b5b6b6;">Donami un ☕️ o una 🍕 virtuale e dammi la carica per sviluppare nuove funzionalità!♥️</p>
 </div><br>
-	<p style="color:red;">Salva le modifiche per visualizzare l'anteprima. </p><br>
-	<iframe credentialless id="frame" height="600px" width="100%"scrolling="no" src="/wp-admin" style="margin-bottom:-90px"></iframe>
+	<p style="color:red;">Salva per visualizzare le modifiche. </p><br>
+	<iframe credentialless id="frame" height="600px" width="100%"scrolling="no" class="loading-iframe" src="/wp-admin"></iframe>
 </td>
 </tr>
 <tr valign="top">
 <th scope="row"><?php _e('Logo: URL', 'seonapsi-custom-login'); ?></th>
 <td>
 <input type="text" id="seonapsi_media_mngr" name="seonapsi_custom_login_logo" placeholder="Clicca qui" value="<?php echo esc_attr($logo); ?>" />
-<p>Clicca per selezionare o caricare l'immagine</p>
+<p id="suggerimento">Clicca per selezionare o caricare l'immagine</p>
 	</td>
 </tr>
 <tr valign="top">
 <th scope="row"><?php _e('Logo: larghezza', 'seonapsi-custom-login'); ?></th>
 <td>
 <input type="text" name="seonapsi_custom_login_logo_width" placeholder="es. 100px" value="<?php echo esc_attr($logo_width); ?>" />
-<p>Regola la larghezza dell'immagine</p>
+<p id="suggerimento">Regola la larghezza dell'immagine</p>
 	</td>
 </tr>
 <tr valign="top">
 <th scope="row"><?php _e('Logo: altezza', 'seonapsi-custom-login'); ?></th>
 <td>
 <input type="text" name="seonapsi_custom_login_logo_height" placeholder="es. 100px" value="<?php echo esc_attr($logo_height); ?>" />
-<p>Regola l'altezza dell'immagine</p>
+<p id="suggerimento">Regola l'altezza dell'immagine</p>
 	</td>
 </tr>
 <tr valign="top">
@@ -251,7 +251,7 @@ title:'PayPal - The safer, easier way to pay online!',
 <tr>
   <th scope="row"><?php _e('Pulsante: angolo dei bordi', 'seonapsi-custom-login'); ?></th>
   <td><input type="number" name="seonapsi_custom_login_button_radius" value="<?php echo esc_attr($button_radius); ?>">
-  <p class="description">inserisci solo un numero da 0 a 100</p>
+  <p id="suggerimento">inserisci solo un numero da 0 a 100</p>
   </td>
 </tr>
 <tr valign="top">
